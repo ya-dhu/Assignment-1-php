@@ -1,0 +1,109 @@
+/* styles.css */
+
+/* Base Styles */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f4d03f; /* Yellow background */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Heading Styles */
+h1 {
+    text-align: center;
+    color: #e74c3c; /* Red heading color */
+    font-size: 36px;
+}
+
+/* Form Styles */
+form {
+    background-color: #fff; /* White form background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Label Styles */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    color: #e74c3c; /* Red label text color */
+}
+
+/* Input, Select, and Textarea Styles */
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 2px solid #e74c3c; /* Red border */
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* Select Dropdown Styles */
+select {
+    appearance: none;
+    background-color: #f9f9f9;
+    padding: 12px;
+}
+
+/* Textarea Styles */
+textarea {
+    height: 100px;
+}
+
+/* Submit Button Styles */
+input[type="submit"] {
+    background-color: #e74c3c; /* Red button background */
+    color: #fff; /* White button text color */
+    padding: 14px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+
+/* Submit Button Hover Styles */
+input[type="submit"]:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
+
+/* Order Confirmation Styles */
+.order-confirmation {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Order Confirmation Heading Styles */
+.order-confirmation h2 {
+    color: #e74c3c; /* Red heading color */
+    font-size: 30px;
+}
+
+/* Order Details Styles */
+.order-details {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 18px;
+}
+
+/* Order Details Paragraph Styles */
+.order-details p {
+    margin: 10px 0;
+    color: #e74c3c; /* Red text color */
+    font-weight: bold;
+}

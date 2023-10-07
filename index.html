@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pizza Order Form</title>
+</head>
+<body>
+<!-- Page Title -->
+<h1>Pizza Order Form</h1>
+
+<!-- Pizza Order Form -->
+<form id="pizzaForm" action="process_order.php" method="post">
+    <!-- User's Name Input -->
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <!-- Pizza Size Dropdown -->
+    <label for="size">Size:</label>
+    <select id="size" name="size" required>
+        <option value="Small">Small</option>
+        <option value="Medium">Medium</option>
+        <option value="Large">Large</option>
+    </select>
+
+    <!-- Toppings Selection (Multiple) -->
+    <label for="toppings">Toppings (select multiple):</label>
+    <select id="toppings" name="toppings[]" multiple required>
+        <option value="Pepperoni">Pepperoni</option>
+        <option value="Mushrooms">Mushrooms</option>
+        <option value="Onions">Onions</option>
+        <!-- Add more toppings here -->
+    </select>
+
+    <!-- Delivery Address (Optional) -->
+    <label for="delivery">Delivery Address (if applicable):</label>
+    <textarea id="delivery" name="delivery"></textarea>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Place Order">
+</form>
+</body>
+</html>
